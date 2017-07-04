@@ -21,6 +21,7 @@ describe('Creation', () => {
     assert.ok(new Headspace() instanceof Headspace)
   })
   it('can create instances via factory method', () => {
+    console.log('factory method')
     assert.ok(Headspace() instanceof Headspace)
   })
 })
